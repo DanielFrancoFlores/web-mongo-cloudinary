@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria UAS</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galería Cloudinary</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #galeria { display: flex; flex-wrap: wrap; gap: 16px; }
+    .card { border: 1px solid #ddd; padding: 8px; border-radius: 6px; width: 320px; }
+    .card img { max-width: 100%; height: auto; display:block; }
+    .card h4 { margin: 8px 0 0; font-size: 14px; word-break: break-all; }
+  </style>
 </head>
 <body>
-    <h1>Imagenes de la UAS almacenadas en la nube</h1>
-    <div id="galeria"></div>
-    <script src="script.js"></script>
+  <h1>Galería Cloudinary</h1>
+  <div id="galeria">Cargando imágenes…</div>
+
+  <script src="script.js"></script>
 </body>
 </html>
